@@ -1,0 +1,8 @@
+{:deps {io.github.nextjournal/clerk {:mvn/version "0.7.418"}}
+
+ :aliases
+ {:nextjournal/clerk
+  {:exec-fn nextjournal.clerk/build-static-app!
+   ;; notebooks to be built, accepts globs patterns
+   :exec-args {:bundle? false
+               :paths ["index.md"]}}}}
