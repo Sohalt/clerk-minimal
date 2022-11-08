@@ -1,4 +1,4 @@
-{:deps {io.github.nextjournal/clerk {:mvn/version "v0.11.603"}}
+{:deps {io.github.nextjournal/clerk {:git/sha "fa0ddcf000bbcd211008c93d8bd0b3047629f6b6"}}
 
  :aliases
  {:nextjournal/clerk
