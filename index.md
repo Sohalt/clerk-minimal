@@ -8,6 +8,6 @@
 
 ```clojure
 (clerk/html
-  [:p "The answer to life, the universe, and everything: " (+ 23 19)])
+  [:p "The answer to life, the universe, and everything: " (* 23 19)])
 ```
 
