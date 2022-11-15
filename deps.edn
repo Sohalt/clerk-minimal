@@ -1,8 +1,9 @@
-{:deps {io.github.nextjournal/clerk {:git/sha "fa0ddcf000bbcd211008c93d8bd0b3047629f6b6"}}
+{:deps {io.github.nextjournal/clerk {:git/sha "6d4c62839e50c1228507ba44d20989a7525f10a7"}}
 
  :aliases
  {:nextjournal/clerk
-  {:exec-fn nextjournal.clerk/build-static-app!
+  {:exec-fn nextjournal.clerk/build!
    ;; notebooks to be built, accepts globs patterns
-   :exec-args {:bundle? false
-               :paths ["index.md"]}}}}
+   :exec-args {:bundle false
+               :index "index.md"}}}}
+
