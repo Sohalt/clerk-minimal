@@ -1,4 +1,4 @@
-{:deps {io.github.nextjournal/clerk {:git/sha "6d4c62839e50c1228507ba44d20989a7525f10a7"}}
+{:deps {io.github.nextjournal/clerk {:git/sha "7e3207786f9b5c2e04e9baefc98f4d6c778e576e"}}
 
  :aliases
  {:nextjournal/clerk
